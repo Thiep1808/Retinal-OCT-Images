@@ -12,10 +12,6 @@ pip install torchsummary # summary
 pip install torchvision  # pytorch for vision
 ```
 
-**NB**: Update the libraries to their latest versions before training.
-
-### How to run
-----------------------------------------
 ⬇️⬇️**Download**: [Dataset](https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/view)
 
 
