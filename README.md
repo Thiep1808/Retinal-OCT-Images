@@ -50,8 +50,7 @@ To operate the camera, you need to install Hikrobot software tools according to 
 ### 1. Download Control Software
 - **Windows:** Use **HiViewer**
 - **Linux:** Use **Machine Vision Software (MVS)**
-- **Official download link:**  
-  https://www.hikrobotics.com/en/machinevision/service/download/
+- **Official download link:** https://www.hikrobotics.com/en/machinevision/service/download/
 
 ---
 
