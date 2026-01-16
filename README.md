@@ -28,7 +28,7 @@ Van Thiep
 # Hikrobot MV-DLS600P
 
 ## Device Overview
-The **MV-DLS600P** is a new-generation **3D stereo camera** from Hikrobot, designed to deliver **high-precision measurements** in industrial environments.
+The **MV-DLS600P** is a binocular structured light stereo camera from Hikrobot, designed to deliver high-precision measurements in industrial environments.
 
 ### Key Technical Specifications:
 | Parameter | Value |
@@ -62,13 +62,8 @@ After installing MVS, all SDK resources are located at:
 ```
 /opt/MVS
 ```
-
 - **SDK Documentation:** `/opt/MVS/doc  
-  (Includes `.xlsx` files describing camera parameters in detail.)
 - **Sample Source Code:** `/opt/MVS/doc/samples`
-- **Camera Control Class:**  
-  `python/MvImport/MvCameraControl_class.py`
-
 ---
 
 ### 3. Reference Documentation
@@ -109,6 +104,11 @@ python src/hikrobot_camera_rgb.py
 ```
 
 ### 3. Get depth image
+
+```bash
+python src/hikrobot_camera_depth.py  
+```
+
 
 ```bash
 python src/hikrobot_camera_depth.py  
