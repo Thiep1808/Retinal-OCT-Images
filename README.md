@@ -103,8 +103,3 @@ python src/hikrobot_camera_rgb.py
 ```bash
 python src/hikrobot_camera_depth.py  
 ```
-
-
-```bash
-python src/hikrobot_camera_depth.py  
-```
