@@ -24,3 +24,92 @@ pip install torchvision  # pytorch for vision
 ### Authors
 
 Van Thiep
+
+# Hikrobot MV-DLS600P
+
+## Device Overview
+The **MV-DLS600P** is a new-generation **3D stereo camera** from Hikrobot, designed to deliver **high-precision measurements** in industrial environments.
+
+### Key Technical Specifications:
+| Parameter | Value |
+| :--- | :--- |
+| **Measuring Range** | 1000 mm |
+| **Working Distance (WD)** | 1200 mm |
+| **Field of View (FOV)** | From 580 × 520 mm to 1220 × 960 mm |
+| **XY Accuracy** | Up to 0.5 mm (at 1.2 m) |
+| **Z Accuracy** | Up to 0.2 mm (at 1.2 m) |
+| **Scan Speed** | 1 fps |
+| **Laser Safety** | Class 2 |
+
+---
+
+## 🛠 Software & SDK Installation
+
+To operate the camera, you need to install Hikrobot software tools according to your operating system.
+
+### 1. Download Control Software
+- **Windows:** Use **HiViewer**
+- **Linux:** Use **Machine Vision Software (MVS)**
+- **Official download link:**  
+  https://www.hikrobotics.com/en/machinevision/service/download/
+
+---
+
+### 2. SDK Configuration (Linux Only)
+
+After installing MVS, all SDK resources are located at:
+
+```
+/opt/MVS
+```
+
+- **SDK Documentation:** `/opt/MVS/doc  
+  (Includes `.xlsx` files describing camera parameters in detail.)
+- **Sample Source Code:** `/opt/MVS/doc/samples`
+- **Camera Control Class:**  
+  `python/MvImport/MvCameraControl_class.py`
+
+---
+
+### 3. Reference Documentation
+- Product documentation:  
+  https://www.ztec.dk/shop/hikrobot-306400345-hikrobot-mv-dls600p-12-52392
+- **MV-DLS600P-12 Galvanometer Laser 3D.pdf** – Detailed specifications
+- **UD44176B_Binocular Structured Light Stereo Camera User Manual** –  
+  Instructions for using camera features in **HiViewer (Windows only)**
+- **User_Manual_of_Client_Software_English.pdf** –  
+  Instructions for using **MVS on Ubuntu (Linux)**, located at:  
+  `/opt/MVS/bin/`
+
+---
+
+
+## 📂 Project Directory Structure
+
+```
+├── hikrobot_camera_rgb.py  
+├── hikrobot_camera_depth.py       
+├── output/                 
+├── requirements.txt       
+```
+
+---
+
+## Usage Instructions
+
+### 1. Set up the environment
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Get RGB image
+
+```bash
+python src/hikrobot_camera_rgb.py  
+```
+
+### 3. Get depth image
+
+```bash
+python src/hikrobot_camera_depth.py  
+```
