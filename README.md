@@ -66,14 +66,10 @@ After installing MVS, all SDK resources are located at:
 ---
 
 ### 3. Reference Documentation
-- Product documentation:  
-  https://www.ztec.dk/shop/hikrobot-306400345-hikrobot-mv-dls600p-12-52392
+- Product documentation [link](https://www.ztec.dk/shop/hikrobot-306400345-hikrobot-mv-dls600p-12-52392)
 - **MV-DLS600P-12 Galvanometer Laser 3D.pdf** – Detailed specifications
-- **UD44176B_Binocular Structured Light Stereo Camera User Manual** –  
-  Instructions for using camera features in **HiViewer (Windows only)**
-- **User_Manual_of_Client_Software_English.pdf** –  
-  Instructions for using **MVS on Ubuntu (Linux)**, located at:  
-  `/opt/MVS/bin/`
+- **UD44176B_Binocular Structured Light Stereo Camera User Manual** – Instructions for using camera features in **HiViewer (Windows only)**
+- **User_Manual_of_Client_Software_English.pdf** – Instructions for using **MVS on Ubuntu (Linux)**, located at:`/opt/MVS/bin/`
 
 ---
 
