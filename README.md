@@ -74,13 +74,26 @@ After installing MVS, all SDK resources are located at:
 ---
 
 
+
 ## 📂 Project Directory Structure
 
 ```
-├── hikrobot_camera_rgb.py  
-├── hikrobot_camera_depth.py       
-├── output/                 
-├── requirements.txt       
+Hikrobot_mv_dls600p/
+├── Camera_implement/
+│   ├── __init__.py
+│   └── Camera.py               
+├── output/                      
+│   ├── color_images/             
+│   └── depth_images/            
+├── tests/
+│   ├── hikrobot_camera_rgb.py    
+│   └── hikrobot_camera_depth.py  
+├── utils/
+│   ├── __init__.py
+│   └── utils.py               
+├── main.py                    
+├── README.md                    
+├── requirements.txt           
 ```
 
 ---
@@ -92,14 +105,8 @@ After installing MVS, all SDK resources are located at:
 pip install -r requirements.txt
 ```
 
-### 2. Get RGB image
+### 2. Get image
 
 ```bash
-python src/hikrobot_camera_rgb.py  
-```
-
-### 3. Get depth image
-
-```bash
-python src/hikrobot_camera_depth.py  
+python main.py   
 ```
