@@ -25,24 +25,20 @@ pip install torchvision  # pytorch for vision
 
 Van Thiep
 
+
 ## 🛠 Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <repository-name>
-```
+git clone git@bitbucket.org:vinrobotics/mv_dls600p.git
+cd mv_dls600p/Hikrobot_mv_dls600p
 
-### 2. Environment Setup
+### 📌 Notes
+- `pip install -r requirements.txt` installs all required dependencies.
+- `pip install -e .` installs the project as a local editable package, allowing code changes without reinstallation.
 
-Ensure you have **Python 3.8+** installed. Then install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-
+---
 
 ## 📖 Usage Guide
 
@@ -62,13 +58,11 @@ The application supports loading camera calibration and intrinsic/extrinsic para
 
 Specifies the path to the camera configuration file (YAML format).
 
-    - This file contains camera parameters such as:
+This file contains camera parameters such as:
 
-    - RGB image size
-
-    - Depth and RGB intrinsics
-
-Extrinsic transformation from depth to RGB
+- RGB image size
+- Depth and RGB intrinsics
+- Extrinsic transformation from depth to RGB
 
 ### 1. Quick Start
 
