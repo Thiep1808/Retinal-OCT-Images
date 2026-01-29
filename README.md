@@ -26,21 +26,7 @@ pip install torchvision  # pytorch for vision
 Van Thiep
 
 
-## 🛠 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone git@bitbucket.org:vinrobotics/mv_dls600p.git
-cd mv_dls600p/Hikrobot_mv_dls600p
-
-### 📌 Notes
-- `pip install -r requirements.txt` installs all required dependencies.
-- `pip install -e .` installs the project as a local editable package, allowing code changes without reinstallation.
-
----
-
-## 📖 Usage Guide
+# 📖 Usage Guide
 
 ### Configuration File (`--config`)
 
